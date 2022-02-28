@@ -1,19 +1,17 @@
-package com.company;
+package com.itClassWork32.src.com.company;
 
 public class Multiple {
     private static Integer A;
     private static Integer B;
 
-    public Multiple(int a, int b) {
-        A = a;
-        B = b;
+    public Multiple() {
     }
 
     public static int getA() {
         return A;
     }
 
-    public void setA(int a) {
+    public static void setA(int a) {
         A = a;
     }
 
@@ -21,7 +19,7 @@ public class Multiple {
         return B;
     }
 
-    public void setB(int b) {
+    public static void setB(int b) {
         B = b;
     }
 

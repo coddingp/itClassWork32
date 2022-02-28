@@ -1,4 +1,4 @@
-package com.company;
+package com.itClassWork32.src.com.company;
 
 import java.util.Objects;
 
